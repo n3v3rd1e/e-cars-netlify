@@ -1,0 +1,14 @@
+{
+  "body": "Hatchback",
+  "color": "red",
+  "power": "105",
+  "brand": "BMW",
+  "price": "206",
+  "model": "i3",
+  "mileage": "72",
+  "torque": "3000",
+  "passengers": "5",
+  "description": "nice car",
+  "year": "2015",
+  "range": "200"
+}
