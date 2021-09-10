@@ -6,6 +6,61 @@ public_folder: /images
 publish_mode: editorial_workflow
 
 collections:
+  - name: "car"
+    label: "Car"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: "car"
+        label: "Car"
+        file: "cars.json"
+        description: "Cars"
+        fields:
+          - label: "model"
+            name: "model"
+            widget: "string"
+          - label: "description"
+            name: "description"
+            widget: "string"
+          - label: "brand"
+            name: "brand"
+            widget: "string"
+          - label: "year"
+            name: "year"
+            widget: "string"
+          - label: "body"
+            name: "body"
+            widget: "string"
+          - label: "passengers"
+            name: "passengers"
+            widget: "string"
+          - label: "color"
+            name: "color"
+            widget: "string"
+          - label: "price"
+            name: "price"
+            widget: "string"
+          - label: "mileage"
+            name: "mileage"
+            widget: "string"
+          - label: "range"
+            name: "range"
+            widget: "string"
+          - label: "power"
+            name: "power"
+            widget: "string"
+          - label: "torque"
+            name: "torque"
+            widget: "string"
+          - label: "photos"
+            name: "photos"
+            widget: "list"
+            field:
+              name: "photo"
+              label: "photo"
+              widget: "string"
+
   - name: "config"
     label: "Config"
     delete: false
